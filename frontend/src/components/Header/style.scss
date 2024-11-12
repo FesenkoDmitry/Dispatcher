@@ -1,0 +1,13 @@
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+
+  & .user-info {
+    display: flex;
+
+    & .hello {
+      margin-right: 20px;
+    }
+  }
+}

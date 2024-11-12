@@ -1,0 +1,81 @@
+.client-form {
+  display: flex;
+  font-size: 18px;
+
+  & .submission-result, form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  & .submission-result {
+    display: flex;
+    flex-direction: column;
+
+    & h1, h3 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  & form {
+    & .form-title-container {
+      display: flex;
+
+      & .form-title {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    & .form-container {
+      width: 450px;
+
+      & .input-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        &-date {
+          flex-direction: column;
+
+          & #dp-input-dp {
+            background-color: #242424;
+            color: rgba(255, 255, 255, 0.87);
+          }
+
+          & #date {
+            margin: 10px 0;
+          }
+        }
+
+        & .phone-code {
+          width: 15px;
+          margin-right: 5px;
+        }
+
+        & .client-form-input {
+          box-sizing: border-box;
+          width: 170px;
+        }
+
+        &.urgent {
+          justify-content: flex-end;
+          margin-bottom: 10px;
+
+          & label {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      & .submit {
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+
+    & .phone-container {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.address-container {
+  position: relative;
+
+  & .suggestions-container {
+    position: absolute;
+    z-index: 10;
+    background: #3b3b3b;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 3px;
+    top: 40px;
+    left: 150px;
+    width: 300px;
+
+    & .suggestion {
+      border-bottom: 1px solid gray;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #3b3b4b;
+      }
+    }
+  }
+
+  & .selected-suggestion {
+    margin-left: 20px;
+    text-align: end;
+  }
+}
+
+
+

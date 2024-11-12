@@ -1,0 +1,28 @@
+.master-page {
+  & .page-title, .not-found, .status-container, .order-history {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  & .status-container {
+    margin-left: 10px;
+
+    & select {
+      font-size: 18px;
+      height: 30px;
+      align-self: center;
+      margin-left: 10px;
+    }
+  }
+
+  & .not-found {
+    color: gray;
+  }
+
+  & .order-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

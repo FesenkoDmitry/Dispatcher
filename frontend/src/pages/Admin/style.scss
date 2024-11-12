@@ -1,0 +1,38 @@
+.admin-page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+
+  & .list-container {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    overflow-y: auto;
+  }
+
+  & .title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 500px;
+    text-align: center;
+  }
+
+  & .table {
+    width: 1300px;
+
+    & .tr {
+      display: flex;
+      border-bottom: .5px solid gray;
+
+      &:hover {
+        background-color: gray;
+      }
+
+      &.th {
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+    }
+  }
+}

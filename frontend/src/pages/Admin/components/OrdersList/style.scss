@@ -1,0 +1,57 @@
+.orders-list-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+
+  & .filter-container {
+    margin-bottom: 20px;
+
+    & a {
+      color: white;
+    }
+
+    & .filter {
+      margin-top: 10px;
+
+      & .filter-controls {
+        & button {
+          margin-right: 10px;
+        }
+      }
+
+      & .filter-input-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      & .filter-input-group {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+        & select, input {
+          box-sizing: border-box;
+          height: 25px;
+        }
+
+        & label {
+          margin-bottom: 5px;
+        }
+
+        & #dp-input {
+          &-deadline-from, &-deadline-to, &-created-from, &-created-to {
+            background-color: #242424;
+            color: rgba(255, 255, 255, 0.87);
+          }
+        }
+      }
+    }
+  }
+
+
+  & .td {
+    width: 12%;
+  }
+}

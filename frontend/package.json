@@ -1,0 +1,25 @@
+{
+  "name": "dispatcher",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development vite build --mode development",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vuepic/vue-datepicker": "^8.5.0",
+    "axios": "^1.6.8",
+    "jquery": "^3.7.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.0.13",
+    "vuejs-datetimepicker": "^1.1.13",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
